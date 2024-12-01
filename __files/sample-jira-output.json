@@ -1,0 +1,104 @@
+{
+    "expand": "description,lead,issueTypes,url,projectKeys,permissions,insight",
+    "self": "https://karthikeselene.atlassian.net/rest/api/3/project/10003",
+    "id": "10003",
+    "key": "SB",
+    "description": "",
+    "lead": {
+        "self": "https://karthikeselene.atlassian.net/rest/api/3/user?accountId=5b124c574bec0e53fdb545c0",
+        "accountId": "5b124c574bec0e53fdb545c0",
+        "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b124c574bec0e53fdb545c0/4b2bf800-15e2-4f1d-b20b-f8f145cd9fa4/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b124c574bec0e53fdb545c0/4b2bf800-15e2-4f1d-b20b-f8f145cd9fa4/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b124c574bec0e53fdb545c0/4b2bf800-15e2-4f1d-b20b-f8f145cd9fa4/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b124c574bec0e53fdb545c0/4b2bf800-15e2-4f1d-b20b-f8f145cd9fa4/32"
+        },
+        "displayName": "Karthikeyan Rajendran",
+        "active": true
+    },
+    "components": [],
+    "issueTypes": [
+        {
+            "self": "https://karthikeselene.atlassian.net/rest/api/3/issuetype/10011",
+            "id": "10011",
+            "description": "Tasks track small, distinct pieces of work.",
+            "iconUrl": "https://karthikeselene.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+            "name": "Task",
+            "subtask": false,
+            "avatarId": 10318,
+            "hierarchyLevel": 0
+        },
+        {
+            "self": "https://karthikeselene.atlassian.net/rest/api/3/issuetype/10012",
+            "id": "10012",
+            "description": "Bugs track problems or errors.",
+            "iconUrl": "https://karthikeselene.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+            "name": "Bug",
+            "subtask": false,
+            "avatarId": 10303,
+            "hierarchyLevel": 0
+        },
+        {
+            "self": "https://karthikeselene.atlassian.net/rest/api/3/issuetype/10013",
+            "id": "10013",
+            "description": "Stories track functionality or features expressed as user goals.",
+            "iconUrl": "https://karthikeselene.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+            "name": "Story",
+            "subtask": false,
+            "avatarId": 10315,
+            "hierarchyLevel": 0
+        },
+        {
+            "self": "https://karthikeselene.atlassian.net/rest/api/3/issuetype/10014",
+            "id": "10014",
+            "description": "Epics track collections of related bugs, stories, and tasks.",
+            "iconUrl": "https://karthikeselene.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+            "name": "Epic",
+            "subtask": false,
+            "avatarId": 10307,
+            "hierarchyLevel": 1
+        },
+        {
+            "self": "https://karthikeselene.atlassian.net/rest/api/3/issuetype/10015",
+            "id": "10015",
+            "description": "Subtasks track small pieces of work that are part of a larger task.",
+            "iconUrl": "https://karthikeselene.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Subtask",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+        },
+        {
+            "self": "https://karthikeselene.atlassian.net/rest/api/3/issuetype/10017",
+            "id": "10017",
+            "description": "",
+            "iconUrl": "https://karthikeselene.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10313?size=medium",
+            "name": "TestCase",
+            "subtask": false,
+            "avatarId": 10313,
+            "hierarchyLevel": 0
+        }
+    ],
+    "assigneeType": "UNASSIGNED",
+    "versions": [],
+    "name": "Selenium Bootcamp",
+    "roles": {
+        "atlassian-addons-project-access": "https://karthikeselene.atlassian.net/rest/api/3/project/10003/role/10017",
+        "Administrator": "https://karthikeselene.atlassian.net/rest/api/3/project/10003/role/10014",
+        "Viewer": "https://karthikeselene.atlassian.net/rest/api/3/project/10003/role/10016",
+        "Member": "https://karthikeselene.atlassian.net/rest/api/3/project/10003/role/10015"
+    },
+    "avatarUrls": {
+        "48x48": "https://karthikeselene.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10411",
+        "24x24": "https://karthikeselene.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10411?size=small",
+        "16x16": "https://karthikeselene.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10411?size=xsmall",
+        "32x32": "https://karthikeselene.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10411?size=medium"
+    },
+    "projectTypeKey": "software",
+    "simplified": true,
+    "style": "next-gen",
+    "isPrivate": false,
+    "properties": {},
+    "entityId": "e2928f1d-5fed-4546-bb6d-44c23ccf5669",
+    "uuid": "e2928f1d-5fed-4546-bb6d-44c23ccf5669"
+}
